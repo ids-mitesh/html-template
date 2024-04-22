@@ -176,7 +176,7 @@ ul.icon-position {
 
 .progress {
     margin-bottom: 31px;
-    height: 9px;
+    height: 13px;
 }
 
 .progress-bar {
@@ -205,10 +205,12 @@ section.services {
     padding-bottom: 20px;
     position: relative;
     color: #37517e;
+    font-family: "Jost", sans-serif;
 }
 
-.row.mt-5 {
-    text-align: center;
+
+.services {
+    padding: 60px 0;
 }
 
 .services .icon-boxes {
@@ -217,4 +219,91 @@ section.services {
     background: #fff;
 }
 
-/*   */
+.call-action {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/building.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.Call-to-action h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Call-to-action p {
+    color: #fff;
+}
+
+.call-action .call-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.call-action .call-btn a {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    margin: 15px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.call-action .call-btn a:hover {
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
+}
+
+.services .icon-boxes i {
+    font-size: 36px;
+    color: #47b2e4;
+    margin-bottom: 10px;
+}
+
+.services .icon h4 {
+    color: #37517e;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.services .icon p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.Voluptatem label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #37517e;
+}
+
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio-text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.portfolio-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+}
+
+.all-app{
+    list-style: none;
+    gap: 55px;
+}
